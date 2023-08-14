@@ -1,8 +1,10 @@
-.cabeçalho_manu-hamburguer{
+.cabeçalho_menu-hamburguer{
 
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 
 }
@@ -19,5 +21,11 @@
     
     display: flex;
     align-items: center;
+
+}
+
+.container_imagem{
+
+    padding: 1em;
 
 }
