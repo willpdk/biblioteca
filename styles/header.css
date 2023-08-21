@@ -28,6 +28,10 @@
     display: none;
 }
 
+.opções{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
     .container_titulo{
         font-family: var(--fonte-secundaria);
@@ -39,6 +43,38 @@
     .container_titulo--negrito{
         font-weight: 700;
     }
+    
+    .opções{
+        display: flex;
+    }
+
+    .opções_item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opções_link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .conteiner_imagem-transparente{
+        display: none;
+    }
+
+    .cabeçalho_menu-hamburguer{
+        display: none;
+    }
+    
+    .opções_botão:checked~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opções_botão{
+        display: none;
+    }
+
 }
 
 .lista-menu{

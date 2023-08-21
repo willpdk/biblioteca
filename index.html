@@ -15,6 +15,12 @@
 <body>
     <header class="cabeçalho">
         <div class="continer">
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções-botão">
+                <label for="opções-menu">
+                    <li class="opções_item">Categorias</li>
+                </label>
+
             <input type="checkbox" id="menu" class="container_botao">
             <label for="menu">
                 <span class="cabeçalho_menu-hamburguer container_imagem"> </span>
@@ -36,11 +42,20 @@
                         <a href="#" class="lista-menu_link">Vestibular</a>
                     </li>
                 </ul>
+
+                <li class="opções_item">
+                    <a href="#" class="opções_link">Favoritos</a>
+                </li>
+                <li class="opções_item">
+                    <a href="#" class="opções_link">Meus empréstimos</a>
+                </li>
+            </ul>
+            
             </label>
             <img src="img/Logo.svg" alt="Logotipo da Biblioteca Start">
         </div>
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container_imagem"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container_imagem container_imagem-transparente"></a>
             <a href="#"><img src="img/Emprestimos.svg" alt="Meus Emprestimos" class="container_imagem"></a>
             <a href="#"><img src="img/Usuario.svg" alt="Meu Perfil" class="container_imagem"></a>
         </div>
